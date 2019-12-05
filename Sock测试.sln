@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{1A805BC7-E460-4AB4-A957-C470A9E757AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "Client\Client.csproj", "{C98506C3-5322-4388-8D39-D3D774DBBEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvM.Socket", "MvM.Socket\MvM.Socket.csproj", "{F954962B-36F8-424F-82A0-4926556961AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A805BC7-E460-4AB4-A957-C470A9E757AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A805BC7-E460-4AB4-A957-C470A9E757AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A805BC7-E460-4AB4-A957-C470A9E757AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A805BC7-E460-4AB4-A957-C470A9E757AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98506C3-5322-4388-8D39-D3D774DBBEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98506C3-5322-4388-8D39-D3D774DBBEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98506C3-5322-4388-8D39-D3D774DBBEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98506C3-5322-4388-8D39-D3D774DBBEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F954962B-36F8-424F-82A0-4926556961AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F954962B-36F8-424F-82A0-4926556961AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F954962B-36F8-424F-82A0-4926556961AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F954962B-36F8-424F-82A0-4926556961AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAB019F1-6F50-4E5D-8D4C-4E812F3D98E7}
+	EndGlobalSection
+EndGlobal
